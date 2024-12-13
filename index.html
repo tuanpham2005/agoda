@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="trangChu.css" />
+    <title>AGODA</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>H</div>
+            <span>HOTEL<br />AGODA</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Trang Chủ</a></li>
+          <li><a href="#about">Về</a></li>
+          <li><a href="#room">Phòng</a></li>
+          <li><a href="#feature">Tính Năng</a></li>
+          <li><a href="#menu">Thực Đơn</a></li>
+          <li><a href="#news">Tin Tức</a></li>
+          <li><a href="dangNhap.html">Đăng Nhập</a></li> 
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <p class="section__subheader">VỀ CHÚNG TÔI</p>
+        <h1>Nền Tảng Hoàn Hảo<br />Cho Bạn</h1>
+        <button class="btn">Đi Tham Quan</button>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div class="section__container booking__container">
+        <form action="/">
+          <div class="input__group">
+            <label for="arrival">Ngày đến</label>
+            <input type="text" placeholder="Ngày đến của bạn" />
+          </div>
+          <div class="input__group">
+            <label for="departure">Ngày khởi hành</label>
+            <input type="text" placeholder="Ngày khởi hành của bạn" />
+          </div>
+          <div class="input__group">
+            <label for="guests">Khách mời</label>
+            <input type="text" placeholder="Số lượng khách" />
+          </div>
+          <button class="btn">Kiểm Tra Tình Trạng Sẵn Có</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="assets/about-1.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-user-line"></i></span>
+            <h4>Đội Ngũ Vững Mạnh</h4>
+            <p>
+              Mở Rộng Sự Xuất Sắc Trong Ngành Khách Sạn Và Đảm Bảo Kỳ Nghỉ Hoàn Hảo Của Bạn
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="assets/about-2.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4>Phòng Sang Trọng</h4>
+            <p>Trải Nghiệm Sự Sang Trọng Vô Song Tại Những Phòng Sang Trọng Tuyệt Hảo Của Chúng Tôi</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">VỀ CHÚNG TÔI</p>
+          <h2 class="section__header">Khám Phá Không Gian Dưới Đất Của Chúng Tôi</h2>
+          <p class="section__description">
+            Chào mừng bạn đến với một thế giới bí ẩn của những căn phòng nghỉ tuyệt vời,
+             nơi sự sang trọng, thoải mái và phiêu lưu hội tụ. Các khách sạn dưới lòng đất
+              của chúng tôi mang đến một kỳ nghỉ không thể sánh kịp, mời bạn khám phá một
+               thế giới dưới mặt đất đầy kỳ diệu.
+          </p>
+          <button class="btn">Đặt Phòng Ngay</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="room__container" id="room">
+      <p class="section__subheader">PHÒNG</p>
+      <h2 class="section__header">Các Phòng Được Lựa Chọn Kỹ Lưỡng</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <img src="assets/room-1.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4><a href="datPhong.html">Phòng Deluxe Suite</a></h4>
+              <p>Các phòng được trang bị đầy đủ tiện nghi, thiết kế dành cho những
+                 khách hàng mong muốn sự tiện nghi và sang trọng hơn.</p>
+            </div>
+            <h3>$399<span>/đêm</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="assets/room-2.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Phòng Family Suite</h4>
+              <p>Gồm nhiều phòng và một khu vực sinh hoạt chung.</p>
+            </div>
+            <h3>$599<span>/đêm</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="assets/room-3.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Phòng Luxury Penthouse</h4>
+              <p>
+                Chỗ nghỉ hạng nhất, thường nằm ở các tầng cao nhất của khách sạn.
+              </p>
+            </div>
+            <h3>$799<span>/đêm</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="section__container intro__container">
+        <div class="intro__cotent">
+          <p class="section__subheader">VIDEO GIỚI THIỆU</p>
+          <h2 class="section__header">Gặp Gỡ Không Gian Sang Trọng Của Chúng Tôi</h2>
+          <p class="section__description">
+            Dù bạn đang tìm kiếm một nơi ẩn náu ấm cúng và riêng tư hay một hành trình
+             khám phá dưới mặt đất, Hotel Miranda cam kết mang đến một kỳ nghỉ khó quên, 
+             nơi sự thoải mái và phấn khích đang chờ đón bạn.
+          </p>
+          <button class="btn">Đặt Phòng Ngay</button>
+        </div>
+        <div class="intro__video">
+          <video src="assets/luxury.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+      <p class="section__subheader">CƠ SỞ VẬT CHẤT</p>
+      <h2 class="section__header">Các Tính Năng Cốt Lõi</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span><i class="ri-thumb-up-line"></i></span>
+          <h4>Được Đánh Giá Cao</h4>
+          <p>
+            Chúng tôi tự hào trong việc lựa chọn các khách sạn luôn 
+            nhận được đánh giá cao và những nhận xét tích cực.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>Giờ Yên Tĩnh</h4>
+          <p>
+            Chúng tôi hiểu rằng sự yên tĩnh và nghỉ ngơi không bị 
+            gián đoạn là yếu tố quan trọng cho một trải nghiệm thư giãn.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-map-pin-line"></i></span>
+          <h4>Vị Trí Tuyệt Vời</h4>
+          <p>
+            Tại website đặt phòng của chúng tôi, chúng tôi tự hào cung cấp 
+            các chỗ nghỉ tại những vị trí đắc địa và được ưa chuộng nhất.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-close-circle-line"></i></span>
+          <h4>Hủy Miễn Phí</h4>
+          <p>
+            Chúng tôi hiểu rằng kế hoạch du lịch có thể thay đổi bất ngờ, 
+            vì vậy chúng tôi cung cấp sự linh hoạt với việc hủy phòng miễn phí.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-wallet-line"></i></span>
+          <h4>Tùy Chọn Thanh Toán</h4>
+          <p>
+            Website đặt phòng khách sạn của chúng tôi cung cấp nhiều 
+            phương thức thanh toán tiện lợi để phù hợp với sở thích của bạn.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-coupon-line"></i></span>
+          <h4>Ưu Đãi Đặc Biệt</h4>
+          <p>
+            Dù bạn đang lên kế hoạch cho một kỳ nghỉ lãng mạn hay chuyến công tác, 
+            các ưu đãi đặc biệt được chúng tôi lựa chọn kỹ lưỡng sẽ đáp ứng mọi nhu cầu của bạn.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section__container menu__container">
+        <div class="menu__header">
+          <div>
+            <p class="section__subheader">THỰC ĐƠN</p>
+            <h2 class="section__header">Thực Đơn Món Ăn Của Chúng Tôi</h2>
+          </div>
+          <div class="section__nav">
+            <span><i class="ri-arrow-left-line"></i></span>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <ul class="menu__items">
+          <li>
+            <img src="assets/menu-1.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Trứng & Thịt Xông Khói</h4>
+              <p>
+                Là một sáng tạo ẩm thực mang đến sự biến tấu 
+                độc đáo cho sự kết hợp bữa sáng yêu thích này.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/menu-2.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Trà hoặc Cà Phê</h4>
+              <p>
+                Một lựa chọn cổ điển cho liều thuốc thoải mái và bình yên hàng ngày của bạn.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/menu-3.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Cháo Yến Mạch Chia</h4>
+              <p>
+                Cháo Yến Mạch Chia của chúng tôi là một bữa sáng bổ dưỡng, đầy đủ các chất dinh dưỡng.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/menu-4.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Parfait Trái Cây</h4>
+              <p>
+                Parfait Trái Cây của chúng tôi là một kiệt tác ẩm thực đầy tươi mới và hương vị.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/menu-5.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Bộ Sưu Tập Mứt Cam</h4>
+              <p>
+                Bộ sưu tập Mứt Cam của chúng tôi là sự pha trộn ngon 
+                miệng của các loại mứt cam thủ công đầy màu sắc.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="assets/menu-6.jpg" alt="menu" />
+            <div class="menu__details">
+              <h4>Khối Phô Mai</h4>
+              <p>
+                Khối Phô Mai của chúng tôi là một kiệt tác kỷ niệm sự phong phú và đa dạng của thế giới phô mai.
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="menu__images">
+          <img src="assets/menu-7.jpg" alt="menu" />
+          <img src="assets/menu-8.jpg" alt="menu" />
+          <img src="assets/menu-9.jpg" alt="menu" />
+        </div>
+        <ul class="menu__banner">
+          <li>
+            <span><i class="ri-file-text-line"></i></span>
+            <h4>84k</h4>
+            <p>Dự Án Đã Hoàn Thành</p>
+          </li>
+          <li>
+            <span><i class="ri-user-line"></i></span>
+            <h4>10M</h4>
+            <p>Hoạt Động Trên Toàn Cầu</p>
+          </li>
+          <li>
+            <span><i class="ri-function-line"></i></span>
+            <h4>02k</h4>
+            <p>Các Danh Mục Được Phục Vụ</p>
+          </li>
+          <li>
+            <span><i class="ri-lightbulb-flash-line"></i></span>
+            <h4>100M</h4>
+            <p>Ý Tưởng Được Huy Động Vốn</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+      <div class="news__header">
+        <div>
+          <p class="section__subheader">BLOG</p>
+          <h2 class="section__header">Tin Tức</h2>
+        </div>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="news__grid">
+        <div class="news__card">
+          <img src="assets/news-1.jpg" alt="news" />
+          <div class="news__card__title">
+            <p>25 Tháng 3, 2024</p>
+            <p>Bởi Emily</p>
+          </div>
+          <h4>Khám Phá Những Đặc Sản Ẩm Thực Địa Phương: Hướng Dẫn Dành Cho Những Người Đam Mê Ẩm Thực.</h4>
+          <p>
+            Hãy cùng Emily tham gia chuyến phiêu lưu ẩm thực qua khu vực xung quanh khách sạn của chúng tôi.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="assets/news-2.jpg" alt="news" />
+          <div class="news__card__title">
+            <p>15 Tháng 6, 2024</p>
+            <p>Bởi David</p>
+          </div>
+          <h4>Cân Bằng Tâm Trí, Cơ Thể Và Tâm Hồn Tại Khách Sạn Của Chúng Tôi</h4>
+          <p>
+            Khám phá các liệu pháp spa toàn diện, cơ sở vật chất thể dục và các 
+            phương pháp thiền định sẽ khiến bạn cảm thấy tươi mới.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="assets/news-3.jpg" alt="news" />
+          <div class="news__card__title">
+            <p>08 Tháng 8, 2024</p>
+            <p>Bởi Sarah</p>
+          </div>
+          <h4>Khám Phá Các Hoạt Động Ngoài Trời Gần Khách Sạn Của Chúng Tôi.</h4>
+          <p>
+            Từ các con đường đi bộ và xe đạp đến các môn thể thao dưới 
+            nước và gặp gỡ động vật hoang dã, cô ấy sẽ chỉ ra cách để bạn trải nghiệm những kỳ quan thiên nhiên.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <div>H</div>
+            <span>HOTEL<br />AGODA</span>
+          </div>
+          <p class="section__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            laudantium unde. Doloremque eaque debitis laborum labore voluptates
+            iste molestiae consectetur.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>DỊCH VỤ</h4>
+          <div class="footer__links">
+            <li><a href="#">Đặt Phòng Trực Tuyến</a></li>
+            <li><a href="#">Tùy Chỉnh Phòng</a></li>
+            <li><a href="#">Tham Quan Ảo</a></li>
+            <li><a href="#">Ưu Đãi Đặc Biệt</a></li>
+            <li><a href="#">Dịch Vụ Concierge</a></li>
+            <li><a href="#">Hỗ Trợ Khách Hàng</a></li>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>LIÊN HỆ VỚI CHÚNG TÔI</h4>
+          <div class="footer__links">
+            <li>
+              <span><i class="ri-phone-fill"></i></span>
+              <div>
+                <h5>Số Điện Thoại</h5>
+                <p>+84 397328552</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-record-mail-line"></i></span>
+              <div>
+                <h5>Email</h5>
+                <p>phamtuan8552@gmail.com</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              <div>
+                <h5>Địa Chỉ</h5>
+                <p>Quận 12, Hồ Chí Minh</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
